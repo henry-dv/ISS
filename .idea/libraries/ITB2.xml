@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ITB2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/ITB2" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/ITB2/Filter" />
+      <root url="file://$PROJECT_DIR$/ITB2/ITB2/examples" />
+      <root url="file://$PROJECT_DIR$/ITB2" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/ITB2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/ITB2" recursive="false" type="SOURCES" />
+  </library>
+</component>
