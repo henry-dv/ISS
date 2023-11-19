@@ -14,8 +14,8 @@ public class Interaktive_Binarisierung_HL_YS extends AbstractFilter {
     public Interaktive_Binarisierung_HL_YS() {
         properties.addOptionProperty("Anzahl Schwellwerte", "1",
                 "1", "2", "3", "4", "5", "6", "7", "8", "9");
-        properties.addRangeProperty("Schwellwert 1", 50, 0, 1, 255);
-        properties.addRangeProperty("Schwellwert 2", 220, 0, 1, 255);
+        properties.addRangeProperty("Schwellwert 1", 120, 0, 1, 255);
+        properties.addRangeProperty("Schwellwert 2", 127, 0, 1, 255);
         properties.addRangeProperty("Schwellwert 3", 127, 0, 1, 255);
         properties.addRangeProperty("Schwellwert 4", 127, 0, 1, 255);
         properties.addRangeProperty("Schwellwert 5", 127, 0, 1, 255);
