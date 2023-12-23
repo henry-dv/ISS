@@ -14,7 +14,7 @@ public class HT_HL extends AbstractFilter {
         int rho_min = - rho_max;
 
         // Image hough_space = ImageFactory.bytePrecision().gray(rho_max - rho_min, 360);
-        int[][] hough_space = new int[rho_max - rho_min][360];
+        int[][] hough_space = new int[rho_max - rho_min][180];
 
         System.out.println(input.getValue(0, 0, 0));
         System.out.println(input.getValue(1, 1, 0));
@@ -42,8 +42,8 @@ public class HT_HL extends AbstractFilter {
                     continue;
                 }
 
-                for (int theta = 0; theta < 360; theta++) {
-                    int rho = (int)(x * Math.cos(Math.PI / theta) + y * Math.sin(Math.PI / theta));
+                for (int theta = 0; theta < 180; theta++) {
+                    int rho = (int)(x * Math.cos(theta * 2 * Math.PI / 360) + y * Math.sin(theta * 2 * Math.PI / 360));
 
                     if (rho_min <= rho && rho <= rho_max) {
                         hough_space[rho - rho_min][theta]++;
